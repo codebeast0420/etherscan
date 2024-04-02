@@ -1,0 +1,251 @@
+.main {
+  @apply flex flex-col items-center min-h-screen bg-gray-900 font-sans;
+}
+
+.header {
+  @apply w-full bg-gray-800;
+}
+
+.topHeader {
+  @apply flex items-center text-gray-300 h-12 text-sm px-48 border-b border-gray-700;
+}
+
+.navbar {
+  @apply flex items-center justify-between h-16 px-48 border-b border-gray-700;
+}
+
+.logo {
+  @apply w-24 h-auto;
+}
+
+.menu {
+  @apply flex items-center justify-between text-gray-300 w-96 tracking-wider;
+}
+
+.menu > p:hover {
+  @apply text-blue-500 cursor-pointer;
+}
+
+.signIn {
+  @apply justify-between w-12;
+}
+
+.profile {
+  @apply w-3;
+}
+
+.arrow {
+  @apply w-2;
+}
+
+.searchContainer {
+  @apply w-full;
+}
+
+.searchHeader {
+  @apply flex bg-opacity-50 bg-center bg-no-repeat bg-cover h-64 px-48 pt-12;
+  background-image: url("https://etherscan.io/images/svg/waves-light.svg");
+}
+
+.adSection {
+  @apply flex justify-center bg-blue-500 w-1/3 h-3/5 ml-20 items-center rounded-lg;
+}
+
+.adtext {
+  @apply text-xl font-bold text-center;
+}
+
+.adSection > section {
+  @apply flex justify-between items-center w-52 ml-4 pl-2;
+}
+
+.wizard {
+  @apply w-32;
+}
+
+.searchSection > h3 {
+  @apply pb-4 text-lg tracking-wider;
+}
+
+.input_section {
+  @apply flex items-center h-12 border border-gray-700 rounded bg-gray-800;
+}
+
+.inputField {
+  @apply text-white h-8 pl-8 border-none bg-gray-800 text-base;
+}
+
+.inputField::placeholder {
+  @apply text-gray-300 text-base;
+}
+
+.btn {
+  @apply flex justify-center items-center w-8 h-8 text-lg bg-blue-500 border-none outline-none rounded cursor-pointer;
+}
+
+.magnifying {
+  @apply w-3;
+}
+
+.sponsored {
+  @apply flex items-center text-sm text-gray-300 pt-4 pl-1 font-bold;
+}
+
+.bean {
+  @apply px-1;
+}
+
+.claim {
+  @apply pl-1 text-blue-500;
+}
+
+.searchResults {
+  @apply bg-gray-900 m-[-2.5rem] mx-24 mb-14 border border-gray-700 rounded p-4;
+  box-shadow: 0 0 2.5rem rgba(255, 255, 255, 0.09);
+}
+
+.searchResults > p {
+  @apply tracking-wider pb-4 border-b border-gray-700 mb-4;
+}
+
+.blueText {
+  @apply text-blue-500;
+}
+
+.blueNumber {
+  @apply text-blue-500;
+}
+
+.txnSection {
+  @apply flex flex-col;
+}
+
+.txnTitle {
+  @apply flex justify-between border-b border-gray-700 mb-4 pb-4;
+}
+
+.txnTitle > th {
+  @apply w-36 text-center;
+}
+
+.txn {
+  @apply flex justify-between border-b border-gray-700;
+}
+
+.txn > td {
+  @apply flex justify-center items-center w-36 h-12 text-center;
+}
+
+.transfer {
+  @apply text-sm bg-gray-900 py-1.5 px-4 border border-gray-700 rounded;
+}
+
+.inTxn {
+  @apply flex justify-center items-center w-10 h-6 text-sm font-bold bg-gray-900 text-green-500 border border-gray-700 rounded;
+}
+
+.outTxn {
+  @apply flex justify-center items-center w-10 h-6 text-sm font-bold bg-gray-900 text-yellow-500 border border-gray-700 rounded;
+}
+
+.heroSectionContainer {
+  @apply relative w-full mt-[-2.5rem] pb-20;
+}
+
+.latestResults_header {
+  @apply flex justify-between bg-gray-900 h-44 mx-48 border border-gray-700 rounded p-4;
+  box-shadow: 0 0 2.5rem rgba(255, 255, 255, 0.09);
+}
+
+.latestResults_header > section {
+  @apply flex flex-col justify-between w-full text-gray-300 tracking-wider p-2 border-r border-gray-700;
+}
+
+.latestResults_box {
+  @apply flex items-center w-60 h-20 pl-8;
+}
+
+.hero_averageValue {
+  @apply w-full h-full;
+}
+
+.hero_averageValue > p {
+  @apply p-1;
+}
+
+.chart {
+  @apply pt-1 w-full;
+}
+
+.divider {
+  @apply border-b border-gray-700 w-full;
+}
+
+.svgSection {
+  @apply text-center w-14;
+}
+
+.svgEth {
+  @apply w-7 mr-2;
+}
+
+.svgIcons {
+  @apply text-2xl mr-2;
+}
+
+.heroValues {
+  @apply text-white;
+}
+
+.latestResults_body {
+  @apply flex justify-between m-4 mx-48;
+}
+
+.latestResults_body > section {
+  @apply flex flex-col bg-gray-900 w-1/2 h-full border border-gray-700 rounded p-4;
+  box-shadow: 0 0 2.5rem rgba(255, 255, 255, 0.09);
+}
+
+.latestResults_body_title {
+  @apply flex justify-start items-center w-full h-16 p-4 border-b border-gray-700;
+}
+
+.latestResults_body_table {
+  @apply flex justify-center items-center text-gray-300;
+}
+
+.latestResults_body_table > tbody {
+  @apply w-11/12;
+}
+
+.latestResults_body_tr {
+  @apply flex justify-between items-center border-b border-gray-700 w-full h-20 p-4;
+}
+
+.lastTd {
+  @apply border-none;
+}
+
+.tdIcon {
+  @apply w-8;
+}
+
+.tdContract {
+  @apply w-5;
+}
+
+.tdBlock {
+  @apply w-44 pl-6;
+}
+
+.tdTxns {
+  @apply w-64;
+}
+
+.tdValue {
+  @apply w-28 text-center text-sm bg-gray-900 py-1 px-2 border border-gray-700 rounded;
+}
+
+.tdFromTo {
+  @apply w-64 m-10;
+}
